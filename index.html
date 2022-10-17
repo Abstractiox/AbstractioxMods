@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html>
+    <script src="/ModMenu.com/jss.js"></script>
+    <link rel="stylesheet" href="/ModMenu.com/styling.css">
+    <head>
+        <center>
+            <title>Abstractiox Mods - Home</title>
+            <h1 class="Main-Header"><span>Abstractiox</span></h1>
+        </center>
+    </head>
+    <body>
+        <div class="fontedPs">
+            <center>
+                <p>
+               Welcome to Abstractiox! Home of the Abstractiox Mods. Mods work on both Cracked and Premium Accounts
+    
+               
+                <br>
+                </p>
+                <br>
+                <div class="container">
+                    <button class="Mods" onclick="FORGE()">FORGE Download</button>
+                    <button class="About" onclick="OPTIFINE()">Optifine Download</button>
+                    <button class="Help" onclick="Curseforge()">Curseforge</button>
+                    <button class="Help" onclick="MCreator()">MCreator</button>
+                    <button class="Help" onclick="BBNet()">BlockBench.net</button>
+                </div>
+
+<br><br><br>
+
+                <div class="fonter">
+                
+
+                    <button class="collapsible">Something</button>
+               <div class="content">
+               <p class="dropps">
+                   Something is a mod that adds something random. These mods are only optainable through creative or with cheats on.
+                   <br>
+                   This is made possible with the <a href="https://mcreator.net">MCreator</a> and <a href="https://www.blockbench.net">BlockBench.net</a>
+                   <br><br>
+                   <font color="red">Discontinued</font><br>
+                   Version: v1.0.0 
+                  
+                   <br>
+                   <br>
+                   Description:
+                   <br>
+                   <br>
+                   This mod contains a cool Entity that you may be familiar with, especially if your a gamer. There is also a cool block in this mod. You can find the mob in the misc and the block in the misc as well. <br>
+                   Just search Attack in the search bar in minecraft and Something in the search bar too. ❤❤
+                   <br>
+                   <br>
+                   Requirements: <br>
+                   Forge version: 40.1.84 <br>
+                   Minecraft Version: 1.18.2 <br>
+                   Download Method: Mediafire <br>
+                   Minecraft Type: Java Edition 
+                   Client Side: <font color="red">NO</font>           
+                   <br>
+
+
+                   
+                   <br>
+               <button class="DownloadModsbtn" onclick="Mod_Something_Mod()">Download</button>
+
+               
+               </p>
+               </div>
+               <button class="collapsible">Coin Madness</button>
+               <div class="content">
+               <p class="dropps">
+                This mod adds currency to the game. These currencies are made from ores you find. Such as iron, gold, diamond, or emerald. This is also obtainable in survival mode.<br>
+                This is made possible with the <a href="https://mcreator.net">MCreator</a> and <a href="https://www.blockbench.net">BlockBench.net</a>
+                <br>
+                <br>
+
+                <font color="green">To be released</font>
+                   <br>
+                   Version: 0
+                   <br>
+   
+                   <br>
+                   <br>
+                   Requirements: <br>
+                   Forge version: 40.1.84 <br>
+                   Minecraft Version: 1.18.2 <br>
+                   Download Method: Mediafire <br>
+                   Minecraft Type: Java Edition       
+                   Client Side: <font color="red">NO</font>         
+                   <br>
+                    <br>
+
+                    
+
+               <button class="DownloadModsbtn">To be released</button>
+               </p>
+               </div>
+
+
+            </div>
+            <button class="collapsible">Potions++++  [<font color="Orange">Vanilla Extension</font>]</button>
+            <div class="content">
+            <p class="dropps">
+             This epic potion mods adds modded potions. Modded versions of vanilla potions. Obtainable trough crafting.<br>
+             This is made possible with the <a href="https://mcreator.net">MCreator</a> and <a href="https://www.blockbench.net">BlockBench.net</a>
+             <br>
+             <br>
+
+             <font color="green">Planned Release Date: August 17 2023</font>
+                <br>
+                Version: 0
+                <br>
+
+                <br>
+                <br>
+                Requirements: <br>
+                Forge version: 40.1.84 <br>
+                Minecraft Version: 1.18.2 <br>
+                Download Method: Mediafire <br>
+                Minecraft Type: Bedrock         
+                Client Side: <font color="red">NO</font>      
+                <br>
+                 <br>
+
+                 
+
+            <button class="DownloadModsbtn">Unavailable</button>
+            </p>
+        </div>
+        <button class="collapsible">Banana </button>
+            <div class="content">
+            <p class="dropps">
+             Banana Banana Banana Banana Banana Banana Banana Banana Banana Banana Banana Banana Banana Banana Banana Banana Banana Banana Banana Banana Banana Banana Banana Banana Banana Banana Banana Banana Banana Banana<br>
+             This is made possible with the <a href="https://mcreator.net">MCreator</a> and <a href="https://www.blockbench.net">BlockBench.net</a>
+             <br>
+             <br>
+
+             <font color="green">HIGH PRIORITY</font>
+                <br>
+                Version: 0
+                <br>
+
+                <br>
+                <br>
+                Requirements: <br>
+                Forge version: 40.1.84 <br>
+                Minecraft Version: 1.18.2 <br>
+                Download Method: Mediafire <br>
+                Minecraft Type: Java        
+                Client Side: <font color="red">NO</font>      
+                <br>
+                 <br>
+
+                 
+
+            <button class="DownloadModsbtn">Releasing soon</button>
+            </p>
+        </div>
+        
+
+    </div>
+   
+            </center>
+        </div>
+    </body>
+
+
+
+    <script>
+        var coll = document.getElementsByClassName("collapsible");
+        var i;
+        
+        for (i = 0; i < coll.length; i++) {
+          coll[i].addEventListener("click", function() {
+            this.classList.toggle("active");
+            var content = this.nextElementSibling;
+            if (content.style.maxHeight){
+              content.style.maxHeight = null;
+            } else {
+              content.style.maxHeight = content.scrollHeight + "px";
+            } 
+          });
+        }
+        </script>
+</html>
