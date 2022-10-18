@@ -22,6 +22,7 @@ function BBNet() {
 
 
 //mods links
+//update bruh!!!!!!!!!!!!!!!!!!!!!!
 
 
 function Mod_Something_Mod() {
