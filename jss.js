@@ -25,6 +25,7 @@ function BBNet() {
 
 //e
 function Mod_Something_Mod() {
+    alert('This mod is discontinued. Thank you for downloading.')
     window.location.href = "https://www.mediafire.com/file/uqt3phatx5jow75/Something.jar/file";
 }
 function Mod_BananaBeta_Mod() {
