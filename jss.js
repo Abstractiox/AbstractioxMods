@@ -27,7 +27,7 @@ function Mod_Something_Mod() {
     window.location.href = "https://www.mediafire.com/file/uqt3phatx5jow75/Something.jar/file";
 }
 function Mod_BananaBeta_Mod() {
-    window.location.href = "https://www.mediafire.com/file/51h17d78nlhjpn5/Beta_BananaMod_by_Abstractiox1.5.8.jar/file";
+    window.location.href = "https://www.mediafire.com/file/4hfba1y9mdtbo4i/Beta_BananaMod_by_Abstractiox1.6.6.jar/file";
 }
 
 function WurstClientHack() {
