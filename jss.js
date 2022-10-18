@@ -36,6 +36,11 @@ function WurstClintHack() {
     window.location.href = "https://www.mediafire.com/file/pwbflvz0gk34phk/Wurst-Client-v7.28-MC1.19.2.jar/file";
 }
 
+function WurstClintHack2() {
+    window.location.href = "https://www.wurstclient.net";
+}
 
 
 
+
+https://www.wurstclient.net
