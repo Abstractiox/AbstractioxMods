@@ -32,4 +32,10 @@ function Mod_BananaBeta_Mod() {
     window.location.href = "https://www.mediafire.com/file/51h17d78nlhjpn5/Beta_BananaMod_by_Abstractiox1.5.8.jar/file";
 }
 
+function WurstClintHack() {
+    window.location.href = "https://www.mediafire.com/file/pwbflvz0gk34phk/Wurst-Client-v7.28-MC1.19.2.jar/file";
+}
+
+
+
 
